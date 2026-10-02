@@ -1,0 +1,32 @@
+@'
+# Binaries
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.dylib
+
+# Build artifacts
+build/
+dist/
+bin/
+obj/
+
+# MiniShell runtime
+.minishell_history
+portable/
+msys-*.dll
+*.stackdump
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+'@ | Out-File -FilePath .gitignore -Encoding ASCII
